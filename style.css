@@ -1,2 +1,112 @@
-/* Feuille de style page accueil google
+/* Feuille de style page accueil google*/
 
+body
+{
+	min-width: %;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 13px;
+	color: #4D4D4D;
+}
+
+header nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 20px 12px;
+ }
+
+ header nav div
+ {
+ 	margin: 5px 10px;
+ 	text-align: center;
+ }
+
+ header nav div a
+ {
+ 	text-decoration: none;
+ 	color: #4D4D4D;
+ }
+
+ header nav div a:hover
+ {
+ 	text-decoration: underline;
+
+ }
+
+ #bouton_connexion
+ {
+ 	background-color: #4885ed;
+ 	color: white;
+ 	padding: 8px;
+ 	width: 100px;
+ 	font-size: 13px;
+ 	font-weight: bold;
+ 	border-radius: 1px;
+ 	border: none;	
+ }
+
+ section
+{
+	margin: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section div
+{
+	margin: 15px;
+}
+
+input
+{
+	width: 400px;
+	height: 30px;
+	border: none;
+	background-color: transparent; 
+}
+
+
+#search_bar
+{
+	border: 1px solid #DCDCDC;
+	box-shadow: 0px 2px 2px #D3D3D3;
+	min-width: 480px;
+	max-width: 600px;
+	height: 43px;
+	border-radius: 2px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#boutons_recherche
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+
+.recherche_google, .chance
+{
+	width: 150px;
+	height: 38px;
+	border: none;
+	margin: 0px 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	color: #808080; 
+	border-radius: 2px;
+	background-color: #F4F4F4;
+}
+
+.recherche_google:hover, .chance:hover
+{
+	color: black;
+	border: 1px solid black;
+	background-color: 
+}
