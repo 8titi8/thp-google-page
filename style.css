@@ -6,6 +6,15 @@ body
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 13px;
 	color: #4D4D4D;
+	margin:0;
+	padding: 0;
+}
+
+.page
+{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 header nav
@@ -48,11 +57,11 @@ header nav
 
  section
 {
-	margin: 130px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	flex: 1;
 }
 
 section div
@@ -106,7 +115,52 @@ input
 
 .recherche_google:hover, .chance:hover
 {
-	color: black;
-	border: 1px solid black;
-	background-color: 
+	color: #4D4D4D;
+	border: 1px solid #DCDCDC;
 }
+
+#france
+{
+	background-color: #F4F4F4;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #DCDCDC;
+}
+
+p
+{
+	font-size: 14px;
+	color: #808080;
+	margin-left: 20px;
+}
+
+footer nav
+{
+	background-color: #F4F4F4;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid #DCDCDC;	
+}
+
+.nav_footer_left, .nav_footer_right
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+footer nav div a 
+{
+	text-decoration: none;
+	color: #4D4D4D;
+	margin: 0px 10px;
+}
+
+footer nav div a:hover
+{
+	text-decoration: underline;
+} 
